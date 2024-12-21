@@ -1,0 +1,29 @@
+{
+  "name": "workers-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "ArtKonX",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0 <22.0.0"
+  },
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.21.0",
+    "http": "^0.0.1-security",
+    "koa": "^2.15.3",
+    "koa-router": "^13.0.1",
+    "koa-slow": "^2.1.0",
+    "pino": "8.17.2",
+    "pino-pretty": "10.3.1",
+    "ws": "8.13.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0"
+  },
+  "repository": "https://github.com/ArtKonX/ahj-homeworks-workers-backend.git"
+}
